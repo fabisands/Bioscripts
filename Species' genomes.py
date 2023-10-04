@@ -32,8 +32,7 @@ if C_perfingens_size <= C_septicum_size:
 else:
     short_one = C_septicum_size
 
-print("\nThe first", short_one, "nucleotides of each chain will be taken since that is")
-print("the amount to be compared from the shortest genome")
+print("\nThe first", short_one, "nucleotides of each chain will be taken since that is the amount to be compared from the shortest genome")
 
 # Do the counting
 
@@ -46,6 +45,5 @@ for i in range(C_perfingens_size):
 
 result = round(((count/short_one)*100), 2)
 
-print("\nThe similarity percentage of the genomes of the Clostridium perfringens and")
-print("Clostridium septicum species is", str(result) + "%")
+print("\nThe similarity percentage of the genomes of the Clostridium perfringens and Clostridium septicum species is", str(result) + "%")
 
