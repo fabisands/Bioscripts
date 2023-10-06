@@ -1,3 +1,4 @@
+# A script to translate from a DNA string into an aminoacid sequence
 genetic_code = {
     'TTT': 'F', 'TTC': 'F', 'TTA': 'L', 'TTG': 'L',
     'CTT': 'L', 'CTC': 'L', 'CTA': 'L', 'CTG': 'L',
