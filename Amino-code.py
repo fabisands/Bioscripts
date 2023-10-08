@@ -33,3 +33,5 @@ def translate_dna_to_aa(dna_sequence):
 dna_sequence = input("Write a series of letters of nitrogenous bases (CGTA): ")
 aa_sequence = translate_dna_to_aa(dna_sequence)
 print("Translated aminoacid sequence:", aa_sequence)
+
+# Try to make it in an interactive box
